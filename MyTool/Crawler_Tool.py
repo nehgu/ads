@@ -7,6 +7,8 @@ from bs4 import BeautifulSoup, NavigableString
 from ConfigParser import ConfigParser
 import utils
 from utils import get_img,get_text,load_textimg,get_links
+import service
+from service import TextAdd,ImageAdd,browserfunction
 import urllib
 import urlparse
 import copy
@@ -16,6 +18,7 @@ import random
 
 "load the settings from settings.txt file"
 current_dir=os.path.dirname(os.path.realpath(__file__))
+output_dir=os.path.join(os.path.dirname(os.path.realpath(__file__)),"output")
 config=ConfigParser()
 config.read(os.path.join(current_dir,'settings.ini'))
 url=config.get('General','urltoOpen')
@@ -26,35 +29,6 @@ filename=config.get('General','Filename')
 utils.get_img.getimg(url)
 utils.get_text.gettext(url)
 
-""" Choose among following options of modification based on random choice between text/image modification"""
-"Choose between text or image"
-addremText=random.choice((True,False))
-addremImage=random.choice((True,False))
-"Choose randomly and store the number of text/image elements to be added/removed"
-if (addremText and not(addremImage)):
-    AddNewText=random.randint(0,NumOfModifications)
-    RemoveText=random.randint(0,(NumOfModifications-AddNewText))
-    AddNewImage=0
-    RemoveImage=0
-elif (addremText and addremImage):
-    NumText=random.randint(0,NumOfModifications)
-    NumImage=random.randint(0,(NumOfModifications-NumText))
-    AddNewText=random.randint(0,NumText)
-    RemoveText=random.randint(0,(NumText-AddNewText))
-    AddNewImage=random.randint(0,NumImage)
-    RemoveImage=random.randint(0,(NumImage-AddNewImage))
-elif (not(addremText) and addremImage):
-    AddNewText=0
-    RemoveText=0
-    AddNewImage=random.randint(0,NumOfModifications)
-    RemoveImage=random.randint(0,(NumOfModifications-AddNewImage))
-elif (not(addremText) and not(addremImage)):
-    print "Default case: Just modifying random text elements equal to total num of differences by default"
-    AddNewText=0
-    RemoveText=0
-    AddNewImage=0
-    RemoveImage=0
-
 " Store the html page in soup object "
 r = urllib.urlopen(url).read()
 soup = BeautifulSoup(r, "html.parser")
@@ -64,37 +38,45 @@ texts=utils.load_textimg.load_text()
 images=utils.load_textimg.load_img()
 utils.get_links.getlinks(filename,url)
 
-##Modify and save html content
-##Create a new div
-##add_soup=BeautifulSoup('<div id="Soupified"></div>', "html.parser")
-##div_tag = add_soup.html.body.div
-##add_soup.body.insert(3, div_tag)
-#newsoup.body.append(copy.deepcopy(add_soup))
-#print i,texts[i]
-#newsoup=copy.deepcopy(add_soup)
-
 for n in xrange(TotalPages):
-    newsoup=copy.deepcopy(soup)
+    "Get random number of text/image addition/removals for each webpage generated"
+    AddNewText=random.randint(1,NumOfModifications)
+    RemoveText=random.randint(1,NumOfModifications)
+    AddNewImage=random.randint(1,NumOfModifications)
+    RemoveImage=random.randint(1,NumOfModifications)
+    "Create output soup object"
+    newsoup=soup
+    
     "For adding text"
     for x in xrange(AddNewText):
         i=random.randint(0,len(texts))
-        add_soup=BeautifulSoup('<p><h2><mark>'+texts[i]+'</mark></h2></p>', "html.parser")
-        add_soup.p.string.wrap(newsoup.new_tag("b"))
-        add_soup.p.wrap(newsoup.new_tag("div"))
-        newsoup.body.append(copy.deepcopy(add_soup))
+        newsoup=service.TextAdd.text_add(newsoup,texts[i])
+        
+    "For removing text"
+    for x in xrange(RemoveText):
+        i=random.randint(0,len(texts))
+        newsoup=service.TextAdd.text_rem(newsoup,texts[i])
+        
     "For adding images"
     for x in xrange(AddNewImage):
         i=random.randint(0,len(images)-1)
         images[i]=images[i].rstrip('\n')
-        new_tag=newsoup.new_tag('img', src=images[i])
-        newsoup.div.append(new_tag)
-##    #For modifying text
-##    for a in newsoup.findAll('a'):
-##        j=random.randint(0,len(texts)-1)
-##        if soup.body.findAll(text=texts[j]):
-##            a.string='SOUP'
+        newsoup=service.ImageAdd.img_add(newsoup,images[i])
+
+    "For removing images"
+    for x in xrange(RemoveImage):
+        i=random.randint(0,len(images)-1)
+        images[i]=images[i].rstrip('\n')
+        newsoup=service.ImageAdd.img_rem(newsoup,images[i])
             
     dot_pos = filename.rfind('.')
     new_filename = filename[:dot_pos]+"new-"+str(n)+filename[dot_pos:]
-    with open((os.path.join(os.path.dirname(__file__),new_filename)), 'w') as fout:
+    with open((os.path.join(output_dir,new_filename)), 'w') as fout:
         fout.write(newsoup.prettify("utf-8"))
+    service.browserfunction.show_in_browser(output_dir,new_filename)
+
+    print "For generated page: "+str(n)
+    print "\tAdded Text: number="+str(AddNewText)
+    print "\tremoved Text: number="+str(RemoveText)
+    print "\tAdded image: number="+str(AddNewImage)
+    print "\tremoved image: number="+str(RemoveImage)

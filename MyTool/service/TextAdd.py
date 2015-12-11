@@ -5,29 +5,37 @@
 """
 
 import sys
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 import urllib
 import urlparse
 import os
+import random
+import lxml.etree
+import lxml.etree as ET
+from StringIO import StringIO
+from htmldom import htmldom
+import re
 
-def text_add(url):    
-    " Store the html page in soup object "
-    r = urllib.urlopen(url).read()
-    soup = BeautifulSoup(r, "html.parser"))
-    "Remove all script elements"
-    for script in soup(["script"]):
-        script.extract() 
+def text_add(newsoup,text):
+    divcount=len(newsoup.find_all("div"))
+    c=random.randint(1,divcount)
+    cc=0
+    temp_soup=BeautifulSoup('<div id="dummy123"><mark><strong>'+text+'</strong></mark></div>', "html.parser")
+    div_tag=temp_soup.div
+    for tag in newsoup.find_all(re.compile("^[a-z]+.*")):     
+        if (tag.name == "div"):
+            cc=cc+1
+            if (cc==c):    
+                #insert new div here and put into soup                
+                tag.append(div_tag)
+    return newsoup
 
-    "Store a local copy of the webpage as html page"
-    with open(os.path.join(os.path.dirname(__file__),filename), 'w') as fid:
-        fid.write(r)
-    fid.close()
-
-    " Generate all embedded urls in a text file all_links.txt    "
-    urlArray = []
-    f = open((os.path.join(os.path.dirname(__file__),'all_links.txt')), 'w')
-    for tag in soup.findAll('a', href=True):
-        tag['href'] = urlparse.urljoin(url, tag['href'])
-        urlArray = tag['href']
-        f.write(urlArray+'\n')
-    f.close()
+def text_rem(newsoup,text2):
+    text2=text2.strip('\n')
+    giantstring=str(newsoup)
+    if (text2 in giantstring):
+        giantstring=giantstring.replace(text2,"Removed Text from Here")
+        latestsoup=BeautifulSoup(giantstring, "html.parser")
+    else:
+        latestsoup=newsoup
+    return latestsoup
