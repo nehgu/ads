@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    load_textimg:A module that loads all the extracted text/image from html page into variables and returns them
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """

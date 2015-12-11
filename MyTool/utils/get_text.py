@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    get_text:A module that extracts text from a HTML page and stores in a text file
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """

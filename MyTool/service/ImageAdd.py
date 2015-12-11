@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    ImageAdd:A module that add/removes images randomly from HTML page
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """

@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    TextAdd:A module that performs random addition/deletion of text in HTML pages in a website url
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """
@@ -17,6 +17,7 @@ from htmldom import htmldom
 import re
 
 def text_add(newsoup,text):
+    text=text.strip('\n')
     divcount=len(newsoup.find_all("div"))
     c=random.randint(1,divcount)
     cc=0

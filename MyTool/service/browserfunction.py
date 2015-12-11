@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    Browserfunction:A module that renders HTML pages to browser
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """
@@ -13,4 +13,4 @@ import webbrowser
 
 def show_in_browser(output_dir,new_filename):
     url='file://' + str(os.path.join(output_dir,new_filename))
-    webbrowser.open(url)
+    webbrowser.open_new_tab(url)

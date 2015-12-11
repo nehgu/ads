@@ -1,5 +1,5 @@
 """
-    Crawler_Tool:A module that extracts links of HTML pages in a website url
+    get_img:A module that extracts all images in HTML page and stores them in a text file
     ~~~~~~~~~~~~
     Added by: Neha Gupta Nov-Dec 2015
 """

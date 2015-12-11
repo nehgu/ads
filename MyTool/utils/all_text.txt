@@ -1,329 +1,134 @@
-Online Shopping India: Shop Shoes, Clothing, Bags, Watches Online in India
-Toggle navigation
-Jabong
-Clear
-SHOW
-.main-segment-container { background: #ffffff!important; } .catalog .offers { visibility: visible !important; } .box-shadows, .box-line { z-index: 3; } .main-header.fixed { background-color: #fff; }
-SHOP
-YOUR PROFILE
-women
-men
-kids
-home
-brands
-sports
-sale
-The JUICE
-Use Voucher: SALE20
-Get EXTRA 20% off on New Arrivals on Minimum purchase of Rs.2299
-download app
-|
-help
-|
-Track Order
-|
-Sign In
-|
-Signup
-save the products you like here
-0
-your shopping bag is empty
-0
-Recent Searches
-Others
-#content-wrapper.jabong-container{  max-width: 1600px; }
-view women
-view men
-hello there!
-WHATS NEW
-Get a wardrobe overhaul with the latest collections and trends from the biggest international brands.
-women
-men
-kids
-home
-brands
-sports
-offer Alert
-Trend Files
-Shop Now
-Shades of Winter
-Did you know Mr.Greys favourite colour was BLUE?
-Shop Now
-Shades of Winter
-Feeling blue? Add a little grey into the mix.
-Discover
-The Juice
-A curated blend of fashion, beauty, people, trends, travel & pop culture.
-Summer saree
-Give the traditional 9 yards a summer makeover.
-Denim in Distress
-Rugged the better. De-stress with distressed denim therapy.
-Tom Tailor
-Up to 60% off on premium offerings from Tom Tailor
-.orange-txt { color: #f7931d !important; }
-Download the app
-2000+ Brands
-200000+ Styles
-jabong
-Contact Us
-About Us
+Columbia University in the City of New York
+Jump to Navigation
+Columbia University in the City of New York
+http://www.columbia.edu/content/about-columbia.html
+Holiday Lights Illuminate College Walk
+ABOUT COLUMBIA
+http://news.columbia.edu/content/congressman-john-lewis%E2%80%99-life-civil-rights-leadership-chronicled-graphic-novels
+Congressman John Lewis' Life of Civil Rights Leadership Chronicled in Graphic Novels
+ON CAMPUS
+http://news.columbia.edu/content/amid-storms-debate-columbia-climate-change-experts-stay-focused-science
+Latest Research from Columbia Climate Change Experts
+CLIMATE
+http://news.columbia.edu/content/when-gay-journalists-were-closeted-history-aids-coverage-times
+Remembering Jeff Schmalz for His Pioneering Impact on How The Times Covered AIDS
+JOURNALISM
+https://vimeo.com/columbianews/review/143379011/555ff86152
+On Exhibit: Inupiat Drawings From the 1890s
+ON EXHIBIT
+University News
+(rss)
+Columbia Engineers Build Biologically Powered Chip
+Mailman School of Public Health and White House Host Climate Event in Paris
+Pediatrics Professor Wendy Chung Explores Genetic Approaches to Medicine
+Columbia Journalism Prof. Michael Schudson on The Rise of the Right to Know'
+Events & Announcements
+(rss)
+December
+11
+Lecture | Spatial Connectivity and Agriculture Evidence from Rural India
+Materials Science & Engineering Colloquium: Nanostructures
+Symposium, Performance | Women, Music, Power: A Celebration of Suzanne G. Cusick's Work
+About
+History
+Administration
+Statistics & Facts
+Visiting
+Admissions
+Schools
+Departments
+Financial Aid
+Areas of Study
+Academics
+Schools
+Departments
+Centers
+Areas of Study
+Research
+News
+Resources
+Centers
+Libraries
+Locations
+Catalogs
+E-Resources
+Request It
+Ask a Librarian
+Services
+Medical Center
+Research
+Education
+Patient Care
+Newsroom
+Giving
+Impact
+Gift Guide
+Ways to Give
+Give Online
+Arts
+Athletics
+Columbia in NY
+Columbia Global
+Resources
+for
+Students
+Faculty & Staff
+Alumni
+Community
 Careers
-Gift Cards
-Rewards
-Affiliates
-Call Us
-Email Us
-FAQs
-Sell on Jabong
-A Company By
-our policies
-Terms and Conditions
-|
-Privacy Policy
-|
-Vendor Code of Conduct
-INTERNATIONAL
-|
-Jabong world
-Signup and get a voucher worth
-R
-2500
-Gender
-Gender
-Male
-Female
-*Voucher is valid only on new Registration
-Subscribe
-cash on delivery
-15 days returns
-free shipping*
-top brands
-AND
-/
-Adidas
-/
-Adidas Originals
-/
-Aldo
-/
-Allen Solly
-/
-American Derby Polo Club
-/
-American Tourister
-/
-Andrew Hill
-/
-Arrow
-/
-Asics
-/
-Aurelia
-/
-Baggit
-/
-Biba
-/
-Bombay Dyeing
-/
-Burton
-/
-Casio
-/
-Catwalk
-/
-Converse
-/
-DC
-/
-Dorothy Perkins
-/
-Entropy
-/
-Fabdeal
-/
-Fastrack
-/
-Fila
-/
-Flying Machine
-/
-Fossil
-/
-French Connection
-/
-G-Star RAW
-/
-Gini & Jony
-/
-Giordano
-/
-Gritstones
-/
-H.E. By Mango
-/
-Hanburry
-/
-Hidesign
-/
-Hush Puppies
-/
-Indian Terrain
-/
-Jack & Jones
-/
-Jockey
-/
-KIARA
-/
-Karigari
-/
-Label Ritu Kumar
-/
-Lakme
-/
-Lara Karen
-/
-Lee
-/
-Lee Cooper
-/
-Levi's
-/
-Lotto
-/
-Louis Philippe
-/
-MB Collection
-/
-MIAMINX
-/
-Mango
-/
-Maxima
-/
-Maybelline
-/
-Metro
-/
-Miss Bennett
-/
-Miss Selfridge
-/
-Monteil & Munero
-/
-Next
-/
-Nike
-/
-Numero Uno
-/
-Only
-/
-People
-/
-Pepe Jeans
-/
-Peter England
-/
-Playboy
-/
-Puma
-/
-Raymond
-/
-Red Chief
-/
-Red Tape
-/
-Reebok
-/
-River Island
-/
-Rohit Bal For Jabong
-/
-Sangria
-/
-Shakumbhari
-/
-Sonata
-/
-Spykar
-/
-Steve Madden
-/
-Swarovski
-/
-Swarovski Create Your Style
-/
-Swayam
-/
-The Vanca
-/
-Timberland
-/
-Titan
-/
-Tommy Hilfiger
-/
-Truhome
-/
-U.S. Polo Assn.
-/
-United Colors of Benetton
-/
-Van Heusen
-/
-Vero Moda
-/
-W
-/
-Wildcraft
-/
-Woodland
-/
-Wrangler
-/
-Yepme
-/
-Z Collection
-top categories
-Bags
-/
-Accessories
-/
-Beauty
-/
-Sports
-/
-Jewellery
-/
-Men Shoes
-/
-Men Clothing
-/
-Women Clothing
-/
-Women Shoes
-/
-Home
-/
-Kids
-shipping partners
-go javas | dtdc | first flight
-secure shopping
-payment options
-Copyright © 2015 Jabong.com. All Rights Reserved
-Online Shopping: convenient, fast and affordable!
-Shopping is fun and exhilarating and more so when you can shop 24x7 without leaving the comfort of home. This in simpler words is what we call Jabong.com! Online shopping at Jabong.com is convenient and affordable. You can find your desired products more quickly and easily using our user-friendly online shopping platform. Fill your cart up to the brim in just a few seconds and get swift home delivery for all orders. All of this topped with our exclusive offers makes for an exciting, irresistible combo!
-Jabong.com: the hottest online fashion destination of all times!
-Fashion is definitely more accessible with Jabong.com. We showcase the chicest of products be it clothing, footwear, jewellery, accessories and cosmetics. Explore the latest collections of top brands like United Colors of Benetton, Arrow, Esprit, French Connection, Adidas, Reebok, Nike, Clarks, Burberry, Calvin Klein and many others. Apart from these, brands that were only heard of but never found online before are now showcased at Jabong.com. Jabong.com is here to make dreams come true for all River Island and Mango lovers. Dorothy Perkins and Miss Selfridge are some other international labels that you will find here. If you wardrobe had been craving for a designer ethnic collection, then you can feast your eyes on Rohit Bal for Jabong.com. Also, take a tour of our
-fashion blog
-to stay abreast of the latest runway trends and be a trendsetter among your immediate circles.
-Avail added online shopping benefits
-You choose your product, order it online, and we deliver it right at your doorstep anywhere in India. You just need to pay for the product, while we ensure free shipping* all the time on almost everything with no strings attached. For any second thoughts after purchase, we have in place a no questions asked return policy as well. To offer you a safe and risk-free online shopping experience, we offer COD facility. Buy gifts for your loved ones and avail our special gift-wrap facility at a nominal cost! Could you have asked for more?
-Jabong.com: the 24 x7 Online Fashion & Lifestyle Store for everyone
-Forget the fashion streets of the world. We, at Jabong.com, have all that you need to glam up your fashion quotient. From an extensive range of mens shirts, western dresses for women, funky clothes for kids and matching footwear, sports shoes and accessories for everyone, we purvey diversity of choices in online shopping in India under one umbrella. Your Jabong Online Shop has arrived! Do not miss the attractive best buy prices and super discount
-coupons
-. Get more, pay less! For any query, drop a line at care@jabong.com or give us a call at 01246128000.
-GOSF
+Learning
+CAA
+Email
+Neighbors
+Programs
+Administration
+Jobs
+Manhattanville
+Academics
+Planning & Design
+Construction
+Community
+116th Street and Broadway, New York, NY 10027
+© 2015 Columbia University
+Contact
+Computing
+Employment
+Visiting
+Accessibility
+Nondiscrimination
+Email
+LionMail
+CUIT Outlook Web Access
+CUMC Outlook Web Access
+Manage My UNI
+Quick Links
+Academic Calendar
+Bookstore
+Columbia News
+Commencement
+CourseWorks
+Directory of Classes
+Environmental Sustainability
+Events Calendar
+Financial Aid
+Human Resources
+Library Hours
+Maps
+Public Safety
+Sexual Respect
+Student Organizations
+Transportation
+Main Menu
+About
+Admissions
+Academics
+Research
+Libraries
+Medical Center
+A-Z Index
+Search for people, departments & websites
+Submit
+Facebook
+Twitter
+Instagram
+YouTube
